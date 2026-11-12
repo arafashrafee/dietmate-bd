@@ -2,11 +2,11 @@
 
 **DietMate BD** is a privacy-focused, offline-first mobile application designed specifically for Bangladeshis seeking to improve their nutrition, manage weight, and simplify meal planning. Planned to use React Native + Expo + TypeScript, SQLite + Drizzle ORM, Zustand, a pure TypeScript nutrition/planning engine, and Expo Notifications, it aims to deliver comprehensive diet management tools while respecting local privacy and cultural preferences.
 
-**Current Status**: Phase 0.1 Planning - Native Bangla/English support with Bangla left-to-right layout and full VoiceOver/TalkBack compatibility planned from first release.
+**Current Status**: Phase 0.3 completed (documentation verified) - Native Bangla/English support with Bangla left-to-right layout and full VoiceOver/TalkBack compatibility planned from first release.
 
 ## Project Status
 
-Currently in Phase 0.1 (planning). This repository contains product documentation and architecture planning for the DietMate BD mobile application.
+Phase 0.3 technical architecture and database design documentation is complete after document verification. App implementation has not started; planned functionality and security protections are not operational. Native encryption feasibility remains a release-blocking verification decision.
 
 ## Core Vision
 
@@ -15,7 +15,7 @@ To empower Bangladeshis to achieve optimal health through culturally relevant, a
 ## Key Differentiators
 
 - **Bangladesh-First**: Native Bangla language support, local food database, culturally appropriate meal planning
-- **Privacy-Focused**: No mandatory login, encrypted local storage, offline-first design
+- **Privacy-Focused**: No mandatory login, planned encrypted local storage, offline-first design
 - **Cost-Aware**: BDT budget tracking, local market pricing cache
 - **Lightweight**: Solo developer optimized, minimal RAM footprint, offline core features
 - **Medical-Safe**: Professional nutrition boundaries, no AI-generated medical advice
@@ -39,7 +39,9 @@ To empower Bangladeshis to achieve optimal health through culturally relevant, a
 ## Documentation
 
 - [Product Requirements Document (PRD)](docs/PRD.md) - Complete feature inventory and implementation roadmap
-- Architecture diagrams and technical specifications (in progress)
+- [Software Requirements Specification (SRS v1.0)](docs/SRS.md)
+- [Technical Architecture](docs/ARCHITECTURE.md)
+- [Database Design and Data Model](docs/DATA_MODEL.md)
 - Design system and user interface guidelines (in progress)
 
 ## Contributing
