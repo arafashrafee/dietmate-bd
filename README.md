@@ -2,11 +2,11 @@
 
 **DietMate BD** is a privacy-focused, offline-first mobile application designed specifically for Bangladeshis seeking to improve their nutrition, manage weight, and simplify meal planning. Planned to use React Native + Expo + TypeScript, SQLite + Drizzle ORM, Zustand, a pure TypeScript nutrition/planning engine, and Expo Notifications, it aims to deliver comprehensive diet management tools while respecting local privacy and cultural preferences.
 
-**Current Status**: Phase 0.3 completed (documentation verified) - Native Bangla/English support with Bangla left-to-right layout and full VoiceOver/TalkBack compatibility planned from first release.
+**Current Status**: Phase 0.4 completed (UI/UX documentation verified) - Native Bangla/English support with Bangla left-to-right layout and full VoiceOver/TalkBack compatibility planned from first release.
 
 ## Project Status
 
-Phase 0.3 technical architecture and database design documentation is complete after document verification. App implementation has not started; planned functionality and security protections are not operational. Native encryption feasibility remains a release-blocking verification decision.
+Phase 0.4 MVP UI/UX design documentation is complete after document verification. Product requirements, technical architecture, data model and UI/UX designs are specifications for future implementation. App implementation has not started; planned functionality and security protections are not operational. Native encryption feasibility remains a release-blocking verification decision.
 
 ## Core Vision
 
@@ -42,7 +42,7 @@ To empower Bangladeshis to achieve optimal health through culturally relevant, a
 - [Software Requirements Specification (SRS v1.0)](docs/SRS.md)
 - [Technical Architecture](docs/ARCHITECTURE.md)
 - [Database Design and Data Model](docs/DATA_MODEL.md)
-- Design system and user interface guidelines (in progress)
+- [MVP UI/UX Specification](docs/UI_UX_SPEC.md) - Screen flows, design tokens, accessibility and offline states
 
 ## Contributing
 
